@@ -22,10 +22,11 @@ The suspension coil design specfications for the MechaCar state that the coils m
 ## T-Tests on Suspension Coils
 Overall, the suspension coils met manufactyring specifications. Using a significance level of .05, our p-value for all manufacturing lots is above the signifiance level. 
 
-<img width="401" alt="Screen Shot 2022-07-09 at 11 53 49 AM" src="https://user-images.githubusercontent.com/101379969/178119238-9d5f66d6-436e-497a-961b-2851a2417841.png">
+  <img width="401" alt="Screen Shot 2022-07-09 at 11 53 49 AM" src="https://user-images.githubusercontent.com/101379969/178119238-9d5f66d6-436e-497a-961b-2851a2417841.png">
 
 However, lot companirson show that Lot 1 and Lot 2 are within specifications, but Lot 3 falls outside with a p-value of .042.
 
 <img width="573" alt="Screen Shot 2022-07-09 at 11 54 58 AM" src="https://user-images.githubusercontent.com/101379969/178119370-c6319009-e795-4684-b715-df1ab5ddfe6c.png">
 
 ## Study Design: MechaCar vs Competition
+To compare AutosRUs' MechaCar against the competition, we can compare the costs of the MechaCar versus direct (and indirect) competitors. Direct competitors would be those that offer a simliar type of vehicle. While indirect competitors would be vehicles that might be in the same price category, but are a different type of offering as in a similiar price car versus SUV. Conducting a t-test on a sample of competitor offerings cmopared to the MechaCar would allow us to see if the MechaCar's cost is significantly different. We would need a sample of the costs of vehicles from competitors.
